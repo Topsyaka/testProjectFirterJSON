@@ -1,4 +1,4 @@
-var json = [
+/*var json = [
    {
       "id":242,
       "name":"Abdul Rahman Baba",
@@ -239,8 +239,10 @@ var json = [
       "contractUntil":"2018-06-30",
       "marketValue":"4,000,000 �"
    }
-];
-/*
+];*/
+
+var json;
+
 function SendPost() {
     //Отправляю GET запрос и получаю ответ, (сделал тестовый файл sendи.php которій считівал json файл)
     //и отдавал его на фронт.
@@ -256,7 +258,7 @@ function SendPost() {
 
 
 $(document).ready(SendPost());
-*/
+
 
 // Функция фильтрации json файла по всем свойствам его объекта
 function filter(arr,comparator) {
